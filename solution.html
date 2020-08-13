@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: mtn;
+            src: url(../fonts/MTNBrighterSans-Regular.otf);
+        } 
+        h1,h2,h3,h4,p{
+            font-family: mtn;
+        }
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .top {
+            width: 100%;
+            height: 80px;
+            background-color: #ffcc00;
+        }
+
+        #wrapper {
+            width: 200px;
+            height: 80px;
+            margin-left: 200px;
+            padding: 5px;
+
+        }
+
+        #logo {
+            width: 80px;
+            height: 60px;
+            float: left;
+        }
+
+        #text {
+            width: 100px;
+            height: 60px;
+            margin-left: 2px;
+            float: left;
+        }
+
+        #text h2 {
+            padding-top: 30px;
+        }
+
+        #logo img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .bg-wrapper {
+            height: 500px;
+            background-image: url(../image/MTN6.jpg);
+            background-size: cover;
+        }
+
+        .bg-wrapper h3 {
+            color: white;
+            text-align: center;
+        }
+
+        .text-wrapper {
+            height: 400px;
+            width: 700px;
+            margin-left: 250px;
+        }
+
+        #box {
+            width: 250px;
+            height: 300px;
+            background-color: white;
+            border-radius: 20px;
+            margin-top: 80px;
+            float: left;
+        }
+
+        #con {
+            width: 250px;
+            height: 100px;
+            background-color: #ffcc00;
+            border-radius: 8px;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+
+        #con h3 {
+            padding: 20px;
+            color: black;
+        }
+
+        #con input {
+            margin: 30px;
+            border-radius: 20px;
+            padding: 15px;
+            display: inline;
+            border: solid 2px #ffcc00;
+        }
+
+        #con button {
+            margin: 15px;
+            border-radius: 20px;
+            background-color: #ffcc00;
+            padding: 15px;
+            margin-right: 10px;
+            width: 86%;
+            border: solid 2px #ffcc00;
+
+        }
+
+        #mtn {
+            color: white;
+            float: left;
+        }
+
+        #mtn h1 {
+            float: left;
+            margin-top: 250px;
+            margin-left: 200px;
+        }
+
+        #mail {
+            background-color: #eeeeee;
+            text-align: center;
+        }
+
+        @media(max-width:600px) {
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            #container{
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+             #wrapper {
+            width: 100%;
+            height: 80px;
+            
+            }
+            #text {
+            width: 100px;
+            height: 60px;
+            
+            
+        }
+        .bg-wrapper {
+            height: 100%;
+            background-image: url(../image/MTN6.jpg);
+            width: 100%;
+        
+        }
+        .text-wrapper{
+            margin-left: 90px;
+            margin-top: 80px;
+            
+            
+        } 
+        #box {
+            width: 250px;
+            height: 300px;
+            background-color: white;
+            border-radius: 20px;
+            
+            margin:auto;
+            float: left;
+        }
+        #con {
+            width: 250px;
+            height: 100px;
+            background-color: #ffcc00;
+            border-radius: 8px;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            margin: auto;
+            
+        }
+        #con h3 {
+            padding: 20px;
+            color: black;
+            padding: auto;
+            width: 100%;
+        }
+        #con input {
+            margin: 30px;
+            border-radius: 20px;
+            padding: 15px;
+            display: inline;
+            border: solid 2px #ffcc00;  
+            width: 70%;
+            
+            
+        }
+        #con button {
+            margin: auto;
+            margin: 15px;
+            border-radius: 20px;
+            background-color: #ffcc00;
+            padding: 15px;
+           
+            margin-right: 10px;
+            width: 90%;
+            border: solid 2px #ffcc00;
+
+        }
+        #mtn{
+            width: 100%;
+            margin: auto;
+            
+            
+        
+        
+            
+        }
+
+        #mtn h1 {
+            
+            float: left;
+            margin-top: 100%;
+            margin-left: 200px;
+            width: 100%;
+            margin: auto;
+
+    
+            
+            
+            
+        }
+        #mail {
+            background-color: #eeeeee;
+            text-align: center;
+            width: 100%;
+        }
+        
+        
+        
+        
+
+
+
+
+
+            
+
+        }
+
+            
+
+
+        
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <section>
+            <div class="top">
+                <div id="wrapper">
+                    <div id="logo">
+                        <img src="image/mtn.png" alt="">
+                    </div>
+                    <div id="text">
+                        <h2>HyNetflex</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- background image section -->
+        <section>
+            <div class="bg-wrapper">
+                <h3>PC|Mobile</h3>
+                <div class="text-wrapper">
+                    <div id="box">
+                        <div id="con">
+                            <h3>Login to Hynetflex<br> Device interface</h3>
+                            <form action="">
+                                <input type="password" placeholder="password">
+                                <button>Proceed</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="mtn">
+                        <h1><strong>Welcome to</strong><br><strong> MyMTN</strong> </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- footer area -->
+    <footer>
+        <div id="mail">
+            <p>Contact Customer Care via email on <a
+                    href="mailto:escustomer.service@mtn.com">escustomer.service@mtn.com</a>
+                or Dial 216(MTN);<a href="tel:08031021600">08031021600</a>(Other Networks)</p>
+            <div>
+                Copyright 1998-2020 ZTE Corporation.All rights reserved|Open Source Licenses
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
